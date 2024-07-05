@@ -76,7 +76,10 @@
                 customer experience</p>
             <form action="" class="head__left-form">
                 <input type="Email" id="email" placeholder="Enter your email" class="head__left-email">
-                <label for="email"><button class="head__left-button">Discover Now</button></label>
+                <label for="email">
+
+                <button class="head__left-button">Discover Now</button>
+                </label>
             </form>
             <p class="head__left-p1">*By clicking the button, you are agreeing with our <span
                     class="head__left-color">Terms & Conditions</span></p>
@@ -383,10 +386,20 @@
             <h2 class="get__title">Get started today! It’s free</h2>
             <p class="get__p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<br> Ipsum
                 has been the industry's standard dummy</p>
-            <form action="">
+            <form class="get_f" action="">
                 <input type="Email" id="email" placeholder="Enter your email" class="get__email">
                 <label for="email"></label>
-                <button class="get__button">Subscribe</button>
+                <!-- <button class="get__button">Subscribe</button> -->
+                                <button class="btn" type="button" id="button">
+                                    <span class="btn__text">Subscribe</span>
+                                    <svg class="btn__progress" viewBox="0 0 48 48" width="48px" height="48px">
+                                        <circle class="btn__progress-track" r="20" cx="24" cy="24" fill="none" stroke="#c7cad1" stroke-width="8" />
+                                        <circle class="btn__progress-fill" r="20" cx="24" cy="24" fill="none" stroke="#000000" stroke-width="8"
+                                            transform="rotate(-90,24,24)" stroke-dasharray="125.66 125.66" stroke-dashoffset="125.66" />
+                                        <polyline class="btn__progress-check" points="12,24 20,32 36,16" fill="none" stroke="#fff" stroke-width="4"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="34 34" stroke-dashoffset="34" />
+                                    </svg>
+                                </button>
             </form>
         </div>
         <img src="./images/get2.png" alt="" width="173px" height="166px" class="get__img2">
@@ -463,7 +476,7 @@
             <p>Copyright© All rights reserved by bmark.</p>
         </div>
     </footer>
-
+<script src="/js/button.js"></script>
 </body>
 
 </html>
